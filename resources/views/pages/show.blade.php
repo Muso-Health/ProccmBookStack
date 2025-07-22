@@ -37,12 +37,6 @@
 
 @section('left')
 
-    @if($page->tags->count() > 0)
-        <section>
-            @include('entities.tag-list', ['entity' => $page])
-        </section>
-    @endif
-
     @if ($page->attachments->count() > 0)
         <div id="page-attachments" class="mb-l">
             <h5>{{ trans('entities.pages_attachments') }}</h5>
@@ -50,6 +44,12 @@
                 @include('attachments.list', ['attachments' => $page->attachments])
             </div>
         </div>
+    @endif
+
+    @if($page->tags->count() > 0)
+        <section>
+            @include('entities.tag-list', ['entity' => $page])
+        </section>
     @endif
 
     @if (isset($pageNav) && count($pageNav))
