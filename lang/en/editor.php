@@ -169,7 +169,7 @@ return [
     'editor_lexical_license_link' => 'Full license details can be found here.',
     'editor_tiny_license' => 'This editor is built using :tinyLink which is provided under the MIT license.',
     'editor_tiny_license_link' => 'The copyright and license details of TinyMCE can be found here.',
-    'save_continue' => 'Save Page & Continue',
+    'save_continue' => 'Save Resource & Continue',
     'callouts_cycle' => '(Keep pressing to toggle through types)',
     'link_selector' => 'Link to content',
     'shortcuts' => 'Shortcuts',

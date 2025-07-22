@@ -21,8 +21,8 @@ return [
 
     'notifications' => 'Préférences de notification',
     'notifications_desc' => 'Contrôlez les notifications par e-mail que vous recevez lorsque certaines activités sont effectuées dans le système.',
-    'notifications_opt_own_page_changes' => 'Notifier lors des modifications des pages que je possède',
-    'notifications_opt_own_page_comments' => 'Notifier lorsque les pages que je possède sont commentées',
+    'notifications_opt_own_ressource_changes' => 'Notifier lors des modifications des ressources que je possède',
+    'notifications_opt_own_ressource_comments' => 'Notifier lorsque les ressources que je possède sont commentées',
     'notifications_opt_comment_replies' => 'Notifier les réponses à mes commentaires',
     'notifications_save' => 'Enregistrer les préférences',
     'notifications_update_success' => 'Les préférences de notification ont été mises à jour !',
@@ -46,6 +46,6 @@ return [
 
     'delete_account' => 'Supprimer le compte',
     'delete_my_account' => 'Supprimer mon compte',
-    'delete_my_account_desc' => 'Cela supprimera complètement votre compte utilisateur du système. Vous ne pourrez pas récupérer ce compte ou annuler cette action. Le contenu que vous avez créé, comme les pages créées et les images téléchargées, sera sauvegardé.',
+    'delete_my_account_desc' => 'Cela supprimera complètement votre compte utilisateur du système. Vous ne pourrez pas récupérer ce compte ou annuler cette action. Le contenu que vous avez créé, comme les ressources créées et les images téléchargées, sera sauvegardé.',
     'delete_my_account_warning' => 'Êtes-vous sûr(e) de vouloir supprimer votre compte ?',
 ];

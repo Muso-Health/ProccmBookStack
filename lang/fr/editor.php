@@ -1,8 +1,8 @@
 <?php
 /**
- * Page Editor Lines
+ * Ressource Editor Lines
  * Contains text strings used within the user interface of the
- * WYSIWYG page editor. Some Markdown editor strings may still
+ * WYSIWYG ressource editor. Some Markdown editor strings may still
  * exist in the 'entities' file instead since this was added later.
  */
 return [
@@ -118,7 +118,7 @@ return [
     'row_type' => 'Type de ligne',
     'row_type_header' => 'En-tête',
     'row_type_body' => 'Corps',
-    'row_type_footer' => 'Pied de page',
+    'row_type_footer' => 'Pied de ressource',
     'alignment' => 'Alignement',
     'cut_column' => 'Couper la colonne',
     'copy_column' => 'Copier la colonne',

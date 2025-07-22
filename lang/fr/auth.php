@@ -75,9 +75,9 @@ return [
     'user_invite_email_greeting' => 'Un compte vous a été créé sur :appName.',
     'user_invite_email_text' => 'Cliquez sur le bouton ci-dessous pour renseigner le mot de passe et récupérer l\'accès :',
     'user_invite_email_action' => 'Renseignez le mot de passe de votre compte',
-    'user_invite_page_welcome' => 'Bienvenue dans :appName !',
-    'user_invite_page_text' => 'Pour finaliser votre compte et recevoir l\'accès, vous devez renseigner le mot de passe qui sera utilisé pour la connexion à :appName les prochaines fois.',
-    'user_invite_page_confirm_button' => 'Confirmez le mot de passe',
+    'user_invite_ressource_welcome' => 'Bienvenue dans :appName !',
+    'user_invite_ressource_text' => 'Pour finaliser votre compte et recevoir l\'accès, vous devez renseigner le mot de passe qui sera utilisé pour la connexion à :appName les prochaines fois.',
+    'user_invite_ressource_confirm_button' => 'Confirmez le mot de passe',
     'user_invite_success_login' => 'Mot de passe défini, vous devriez maintenant pouvoir vous connecter en utilisant votre mot de passe défini pour accéder à :appName!',
 
     // Multi-factor Authentication

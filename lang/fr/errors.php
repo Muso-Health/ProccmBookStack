@@ -5,7 +5,7 @@
 return [
 
     // Permissions
-    'permission' => 'Vous n\'avez pas les droits pour accéder à cette page.',
+    'permission' => 'Vous n\'avez pas les droits pour accéder à cette ressource.',
     'permissionJson' => 'Vous n\'avez pas les droits pour exécuter cette action.',
 
     // Auth
@@ -27,7 +27,7 @@ return [
     'oidc_no_email_address' => 'Impossible de trouver une adresse e-mail pour cet utilisateur, dans les données fournies par le système d\'authentification externe',
     'oidc_fail_authed' => 'La connexion en utilisant :system a échoué, le système n\'a pas fourni d\'autorisation avec succès',
     'social_no_action_defined' => 'Pas d\'action définie',
-    'social_login_bad_response' => "Erreur pendant la tentative de connexion à :socialAccount : \n:error",
+    'social_login_bad_response' => "Erreur pendant la tentative de connexion à :socialAccount : \n:error",
     'social_account_in_use' => 'Ce compte :socialAccount est déjà utilisé. Essayez de vous connecter via :socialAccount.',
     'social_account_email_in_use' => 'L\'email :email est déjà utilisé. Si vous avez déjà un compte :socialAccount, vous pouvez le rattacher à votre profil existant.',
     'social_account_existing' => 'Ce compte :socialAccount est déjà rattaché à votre profil.',
@@ -60,19 +60,19 @@ return [
     'attachment_not_found' => 'Fichier joint non trouvé',
     'attachment_upload_error' => 'Une erreur s\'est produite avec le téléversement du fichier joint',
 
-    // Pages
-    'page_draft_autosave_fail' => 'Le brouillon n\'a pas pu être enregistré. Vérifiez votre connexion internet',
-    'page_draft_delete_fail' => 'Impossible de supprimer le brouillon et de récupérer le contenu sauvegardé de la page actuelle',
-    'page_custom_home_deletion' => 'Impossible de supprimer une page définie comme page d\'accueil',
+    // Ressources
+    'ressource_draft_autosave_fail' => 'Le brouillon n\'a pas pu être enregistré. Vérifiez votre connexion internet',
+    'ressource_draft_delete_fail' => 'Impossible de supprimer le brouillon et de récupérer le contenu sauvegardé de la ressource actuelle',
+    'ressource_custom_home_deletion' => 'Impossible de supprimer une ressource définie comme ressource d\'accueil',
 
     // Entities
     'entity_not_found' => 'Entité non trouvée',
-    'bookshelf_not_found' => 'Étagère introuvable',
-    'book_not_found' => 'Livre non trouvé',
-    'page_not_found' => 'Page non trouvée',
-    'chapter_not_found' => 'Chapitre non trouvé',
-    'selected_book_not_found' => 'Ce livre n\'a pas été trouvé',
-    'selected_book_chapter_not_found' => 'Ce livre ou chapitre n\'a pas été trouvé',
+    'bookshelf_not_found' => 'Domaine introuvable',
+    'book_not_found' => 'Module non trouvé',
+    'ressource_not_found' => 'Ressource non trouvée',
+    'chapter_not_found' => 'Sous-module non trouvé',
+    'selected_book_not_found' => 'Ce module n\'a pas été trouvé',
+    'selected_book_chapter_not_found' => 'Ce module ou sous-module n\'a pas été trouvé',
     'guests_cannot_save_drafts' => 'Les invités ne peuvent pas enregistrer de brouillons',
 
     // Users
@@ -93,10 +93,10 @@ return [
     'comment_delete' => 'Une erreur s\'est produite lors de la suppression du commentaire.',
     'empty_comment' => 'Impossible d\'ajouter un commentaire vide.',
 
-    // Error pages
-    '404_page_not_found' => 'Page non trouvée',
-    'sorry_page_not_found' => 'Désolé, cette page n\'a pas pu être trouvée.',
-    'sorry_page_not_found_permission_warning' => 'Si cette page est censée exister, il se peut que vous n\'ayez pas l\'autorisation de la consulter.',
+    // Error ressources
+    '404_ressource_not_found' => 'Ressource non trouvée',
+    'sorry_ressource_not_found' => 'Désolé, cette ressource n\'a pas pu être trouvée.',
+    'sorry_ressource_not_found_permission_warning' => 'Si cette ressource est censée exister, il se peut que vous n\'ayez pas l\'autorisation de la consulter.',
     'image_not_found' => 'Image non trouvée',
     'image_not_found_subtitle' => 'Désolé, l\'image que vous cherchez ne peut être trouvée.',
     'image_not_found_details' => 'Si cette image était censée exister, il se pourrait qu\'elle ait été supprimée.',
@@ -108,12 +108,12 @@ return [
     // Import
     'import_zip_cant_read' => 'Impossible de lire le fichier ZIP.',
     'import_zip_cant_decode_data' => 'Impossible de trouver et de décoder le contenu ZIP data.json.',
-    'import_zip_no_data' => 'Les données du fichier ZIP n\'ont pas de livre, de chapitre ou de page attendus.',
+    'import_zip_no_data' => 'Les données du fichier ZIP n\'ont pas de module, de sous-module ou de ressource attendus.',
     'import_validation_failed' => 'L\'importation du ZIP n\'a pas été validée avec les erreurs :',
     'import_zip_failed_notification' => 'Impossible d\'importer le fichier ZIP.',
-    'import_perms_books' => 'Vous n\'avez pas les permissions requises pour créer des livres.',
-    'import_perms_chapters' => 'Vous n\'avez pas les permissions requises pour créer des chapitres.',
-    'import_perms_pages' => 'Vous n\'avez pas les permissions requises pour créer des pages.',
+    'import_perms_books' => 'Vous n\'avez pas les permissions requises pour créer des modules.',
+    'import_perms_chapters' => 'Vous n\'avez pas les permissions requises pour créer des sous-modules.',
+    'import_perms_ressources' => 'Vous n\'avez pas les permissions requises pour créer des ressources.',
     'import_perms_images' => 'Vous n\'avez pas les permissions requises pour créer des images.',
     'import_perms_attachments' => 'Vous n\'avez pas les permissions requises pour créer des pièces jointes.',
 

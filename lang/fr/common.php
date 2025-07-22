@@ -86,7 +86,7 @@ return [
     'none' => 'Aucun',
 
     // Header
-    'homepage' => 'Accueil',
+    'homeressource' => 'Accueil',
     'header_menu_expand' => 'Développer le menu',
     'profile_menu' => 'Menu du profil',
     'view_profile' => 'Voir le profil',

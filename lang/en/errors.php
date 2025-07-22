@@ -67,12 +67,12 @@ return [
 
     // Entities
     'entity_not_found' => 'Entity not found',
-    'bookshelf_not_found' => 'Shelf not found',
-    'book_not_found' => 'Book not found',
-    'page_not_found' => 'Page not found',
-    'chapter_not_found' => 'Chapter not found',
+    'bookshelf_not_found' => 'Domain not found',
+    'book_not_found' => 'Module not found',
+    'page_not_found' => 'Resource not found',
+    'chapter_not_found' => 'Submodule not found',
     'selected_book_not_found' => 'The selected book was not found',
-    'selected_book_chapter_not_found' => 'The selected Book or Chapter was not found',
+    'selected_book_chapter_not_found' => 'The selected Module or Submodule was not found',
     'guests_cannot_save_drafts' => 'Guests cannot save drafts',
 
     // Users
@@ -94,7 +94,7 @@ return [
     'empty_comment' => 'Cannot add an empty comment.',
 
     // Error pages
-    '404_page_not_found' => 'Page Not Found',
+    '404_page_not_found' => 'Resource Not Found',
     'sorry_page_not_found' => 'Sorry, The page you were looking for could not be found.',
     'sorry_page_not_found_permission_warning' => 'If you expected this page to exist, you might not have permission to view it.',
     'image_not_found' => 'Image Not Found',
